@@ -72,5 +72,5 @@ const styles = StyleSheet.create({
   loginBtn:{backgroundColor:"#2196F3", padding:15, borderRadius:8, alignItems:"center"},
   loginText:{color:"#fff",fontWeight:"bold", fontSize:"16"},
   roleSelected:{backgroundColor:"#4CAF50", borderColor:"#4CAF50",color:"#fff"},
-  roleText:{ fontWeight:"bold",color:"#fff"}
+  roleText:{ fontWeight:"bold",color:"#000"}
 })

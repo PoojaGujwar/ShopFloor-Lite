@@ -13,11 +13,12 @@ export default function AppNavigator(){
             <Stack.Navigator screenOptions={{headerShown:false}}>
                 <Stack.Screen name="Login" component={LoginScreen}/>
                 <Stack.Screen name="Dashboard" component={Dashboard}/>
-                <Stack.Screen name="machine" component={Machines}/>
-                <Stack.Screen name ="machine-details" component={MachineDetails}/>
-                <Stack.Screen name="summary" component={Summary}/>
-                <Stack.Screen name="alert" component={AlertScreen}/>
-                <Stack.Screen name ="downTimeScreen" component={DownTimescreen}/>
+                <Stack.Screen name="Machine" component={Machines}/>
+                <Stack.Screen name ="Machine-Details" component={MachineDetails}/>
+                <Stack.Screen name ="DownTimescreen" component={DownTimescreen}/>
+                <Stack.Screen name="Summary" component={Summary}/>
+                <Stack.Screen name="Alert" component={AlertScreen}/>
+                
         
             </Stack.Navigator>
         
